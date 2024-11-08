@@ -1,0 +1,81 @@
+
+header
+ {
+    padding: 20px;
+    text-align: center;
+
+    background-color: chocolate;
+    color:   white;
+   
+}
+
+
+main 
+
+{
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+
+
+}
+
+
+
+.cajaprincipal
+
+
+{
+    grid-column:   1 / -1; 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.cajasecundaria
+
+{
+
+
+    background-color: bisque;
+    padding: 20px;
+    border: 1px solid b;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; 
+
+}
+
+
+.cajainferior
+
+{
+    grid-column: 1 / -1; 
+    background-color: aliceblue; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid aquamarine;
+    
+}
+
+
+footer
+
+{
+
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 15px;
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}

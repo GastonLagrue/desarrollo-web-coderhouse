@@ -1,0 +1,75 @@
+
+body
+
+{
+   
+    margin: 0;
+    padding: 0;
+}
+
+
+header 
+
+{
+    background-color:chocolate;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+main
+ {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.cajaizquierda, .cajaderecha
+
+{
+    background-color: beige;
+    padding: 20px;
+   
+    align-items: center;
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.cajainferior
+ {
+    grid-column: 1 / -1; 
+    background-color: peru;
+    padding: 20px;
+    
+    align-items: center;
+    border: 1px solid cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+
+footer
+
+{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 15px;
+
+}
